@@ -12,9 +12,9 @@ import javax.servlet.annotation.WebServlet;
 @WebServlet(urlPatterns = "/DeleteNote")
 public class DeleteNote extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-   final static String URL = "jdbc:mysql://106.12.173.92/LinuxExam";
+   final static String URL = "jdbc:mysql://120.48.13.33/LinuxExam";
    final static String USER = "root";
-   final static String PASS = "Wang123/@";
+   final static String PASS = "zxx010512!";
    final static String SQL_DELETE_NOTEPAD = "DELETE FROM t_notepad WHERE id=?";
 
    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
