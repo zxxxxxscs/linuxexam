@@ -13,9 +13,9 @@ import javax.servlet.annotation.WebServlet;
 public class CreateNote extends HttpServlet {
    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
-   final static String URL = "jdbc:mysql://120.48.13.33/LinuxExam";
+   final static String URL = "jdbc:mysql://120.48.13.33/linuxexam";
    final static String USER = "root";
-   final static String PASS = "zxx010512!";
+   final static String PASS = "Zxx010512!";
    final static String SQL_INSERT_NOTEPAD = "INSERT INTO t_notepad(notepad_content, notepad_time) VALUES (?, ?)";
 
    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
